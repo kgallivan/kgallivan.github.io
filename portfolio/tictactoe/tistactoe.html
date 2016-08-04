@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <link href="tictactoe.css" rel="stylesheet" media="screen">
+
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+   <script src="tictactoe.js" ></script>
+
+   <title>Tic Tac Toe</title>
+
+  </head>
+
+  <body>
+
+    <audio id="lionRoar" preload="auto">
+        <source src="lionroar1.mp3"></source>
+    </audio>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Tic Tac Toe ✘o✘o✘o </h1>
+        <p></p>
+    </div>
+  </div>
+
+  <button id=
+    "newGame" type="button" class="btn btn-primary btn-lg btn-block play">Start New Game ✌</button>
+
+
+<div class= "container">
+  <div class="row">
+    <div class="col-md-12">
+    <h5></h5>
+
+    </div>
+  </div>
+</div>
+
+
+<br></br>
+<br></br>
+
+  <div class="container">
+   <div class="row">
+
+     <div class="col-sm-5">
+      <h2 id="player1header"></h2>
+
+       <input id="player1" type = "text" placeholder="Enter Your Name"/>
+          <br></br>
+
+      <button id="submit1"  type="button" class="btn btn-primary btn-lg active play" >Submit Name</button>
+
+      <p id="score1"></p>
+
+    </div>
+
+
+     <div class="col-sm-2">
+       <h2>vs</h2>
+       <br></br>
+       <button id="like" type="button" class="btn btn-primary play">Like ✌</button>
+     </div>
+
+
+     <div class="col-sm-5">
+       <h2 id="player2header"></h2>
+
+        <input id="player2" type = "text" placeholder="Enter Your Name"/>
+          <br></br>
+      <button id="submit2" type="button" class="btn btn-primary btn-lg active play">Submit Name</button>
+      <p id="score2"></p>
+     </div>
+
+   </div>
+  </div>
+
+<br></br>
+
+<div id="table">
+    <table border="1" class="grid">
+      <tr>
+        <td class="box" id="0"></td>
+        <td class="box" id="1"></td>
+        <td class="box" id="2"></td>
+      </tr>
+
+      <tr>
+        <td class="box" id="3"></td>
+        <td class="box" id="4"></td>
+        <td class="box" id="5"></td>
+      </tr>
+
+      <tr>
+        <td class="box" id="6"></td>
+        <td class="box" id="7"></td>
+        <td class="box" id="8"></td>
+      </tr>
+
+    </table>
+</div>
+
+<br></br>
+    <center><button id=
+    "reset" type="button" class="btn btn-primary btn-lg btn-block play">Reset Game</button></center>
+<br></br>
+  </body>
+</html>
+
+
+
+
+<div align="center" style="z-index:9;visibility:visible;"><a href="http://www.totallyfreecursors.com/" target="_blank" class="tfc"></a></div><style>HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/lion.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/lion.gif"), auto;}</style>
