@@ -1,0 +1,99 @@
+/*Changed the h1
+added a jumbotron
+deleted the col md 12
+changed color of board*/
+
+
+h1{
+  font-size: 150px;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;;
+  color: black;
+  font-weight: 500%;
+  margin-left: 300px;
+  font-style: bold;
+}
+
+.col-sm-5 {
+  text-align:center;
+  height:auto;
+  align-content: center;
+
+}
+
+.jumbotron {
+  align-content: center;
+  text-align: center;
+  height:auto;
+  width:auto;
+  background:url("http://www.safari-journeys.com/images/sfeerbeelden/Lion_on_plains.jpg") no-repeat center;
+  background-size: cover;
+  margin: 0pt;
+
+}
+
+.col-sm-2 {
+  text-align: center;
+  align-content: center;
+  height:auto;
+}
+
+h2{
+  font-size: 65px;
+  font-family: 'Rock Salt', cursive;
+  font-weight: 100px;
+  color: black;
+  font-style: bold;
+}
+
+button{
+  font-family: 'Rock Salt', cursive;
+
+}
+
+body{
+  background:url("Balloon_Safari_2012_06_01_3128_(7522677448).jpg") no-repeat center center fixed;
+ background-size: cover;
+
+}
+
+#nameBox{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.box{
+
+  background-color: rgba(9, 62, 117, 0.86);
+  opacity: 0.01%;
+  border-radius: 25%;
+  height: 160px;
+  width: 160px;
+  padding: 5px;
+
+
+  /*this sets the grid border of our field*/
+}
+
+#newGame{
+  align-content: center;
+  text-align: center;
+  height:auto;
+}
+
+table {
+  border-color: transparent;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  /*the height and width sets how big our table squares are*/
+}
+img {
+  width: 140px;
+  height: auto;
+  position:relative;
+}
+/*keeps X and O img correct size*/
