@@ -621,11 +621,20 @@ textarea.form-control {
 /* Grid and portfolio items */
 
 .portfolio-items-container {
+	justify-content: center;
 	position: relative;
 	display: block;
 	width: 100%;
 	padding: 0;
 	margin: 0;
+}
+
+.portfolio-item {
+	float:left;
+}
+
+figcaption{
+		float:left;
 }
 
 .portfolio-items-container .portfolio-item {
