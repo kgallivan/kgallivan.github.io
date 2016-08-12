@@ -636,6 +636,7 @@ textarea.form-control {
 
 .portfolio-items-container .portfolio-item {
 	display: block;
+	position: relative;
 	list-style: none;
 	overflow: hidden;
 	width: 33.333%;
